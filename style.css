@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background: linear-gradient(#dc0404e5 0%, #930101 33.33%, #6a0000 66.67%, #210202 100%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ body::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .container {
@@ -33,8 +33,8 @@ body::before {
     align-items: center;
     justify-content: space-between;
     border-radius: 24px;
-    border: 1px solid #1875E8;
-    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    border: 1.5px solid #ff5050;
+    box-shadow: 4px 4px 20px 0px rgba(61, 4, 4, 0.499);
     background-image: url("img/Ruido.png");
     background-size: 100% 100%;
     position: relative;
@@ -55,7 +55,7 @@ body::before {
 
 .container__botao {
     border-radius: 16px;
-    background: #1875E8;
+    background: #e81818;
     padding: 16px 24px;
     width: 100%;
     font-size: 24px;
@@ -69,7 +69,7 @@ body::before {
 }
 
 .container__texto-azul {
-    color: #1875E8;
+    color: #e81818;
 }
 
 .container__input {
@@ -78,11 +78,11 @@ body::before {
     border-radius: 16px;
     background-color: #FFF;
     border: none;
-    color: #1875E8;
+    color: #e81818;
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .container__botoes {
@@ -98,7 +98,7 @@ h1 {
 
 p,
 button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .texto__paragrafo {
@@ -110,7 +110,7 @@ button:disabled {
     background-color: gray;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1440px) {
 
     h1 {
         font-size: 50px;
